@@ -35,7 +35,7 @@ computer = random.randint(0,2)
 print(f"computer choice")
 print(image[computer])
 
-if human >= 0 or computer < 0:
+if human < 0 or computer < 0:
   print("invalid no. ")
 
 elif human == 0 and computer == 2 :
